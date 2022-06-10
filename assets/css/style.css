@@ -1,0 +1,117 @@
+body{
+    font-family: 'Roboto', 'sans-serif';
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+main{
+    display: flex;
+    background-color: #e8ebe4;
+}
+.contactos{
+    width: 25%;
+    background-color: #fff;
+    display: flex;
+    overflow-y: scroll;
+    flex-direction: column;
+}
+h2{
+    font-size: 22px;
+    font-weight: 700;
+    color: #1b1f21;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+
+}
+p{
+    font-size: 18px;
+    font:bold;
+    color: #1b1f21;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+
+}
+.maria{
+    border-bottom: solid gray 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mariaestado{
+    flex-direction: column;
+}
+.mariaestado p{
+    color: #bec1bb;
+
+}
+.maria img{
+    height: 80px;
+    border-radius: 50%;
+}
+.icons{
+    color: #bec1bb;
+    font-size: xx-large;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+.boton{
+    border-bottom: solid gray 1px;
+    padding: 50px ;
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: #a491d2;
+    font-size: large;
+    color: #fff;
+    width: 65%;
+    padding: 20px;
+}
+.otros{
+    border-bottom: solid gray 1px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.otros img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    padding: 15px;
+}
+.estadoamigos{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    
+}
+
+.chat{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    
+}
+h1{
+    font-size: 40px;
+    color: black;
+}
+
+.chat img{
+    width: 300px;
+    border-radius: 15px;
+    margin-left: 400px;
+}
+.textonet{
+    margin-left: 350px;
+    text-align: center;
+
+}
